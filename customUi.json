@@ -1,0 +1,72 @@
+{
+	"rules": [{
+		"show": [
+			"CONTENT_PROPERTIES['App Types, Logos, Footers']",
+			"CONTENT_PROPERTIES['1 - Premium Circular']",
+			"CONTENT_PROPERTIES['2 - Premium Circular']",
+			"CONTENT_PROPERTIES['3 - Premium Circular']",
+			"CONTENT_PROPERTIES['Native Banner']",
+			"CONTENT_PROPERTIES['General (Logo, Footer, Theme...)']",
+			"CONTENT_PROPERTIES['Banner Icon Settings']"
+		],
+		"when": [{
+			"property": "CONTENT_PROPERTIES['App 1']['Type']",
+			"equals": "FakeThisIsHereCauseOfCMS_BUG"
+		}]
+	}],
+	"content-properties": [
+
+	],
+	"display-groups": [{
+			"group-name": "Format Settings",
+     	"target-group": "format_singleton_settings",
+			"order": 10,
+			"properties": [{
+					"property": "CONTENT_PROPERTIES['Backup image']",
+					"display-name": "Backup image",
+					"order": 1
+				},
+        {
+          "property": "CONTENT_PROPERTIES['Auto Expand']",
+          "group-name": "Auto Expand",
+          "order": 30
+        },
+				{
+					"property": "CONTENT_PROPERTIES['AdSettings']",
+					"display-name": "Advanced",
+					"order": 50
+				}
+			]
+		}
+
+		,
+		{
+			"group-name": "Expand Content (Portrait)",
+			"target-group": "expand_content_portrait_main_file",
+			"order": 30,
+			"properties": [
+				{
+					"property": "CONTENT_PROPERTIES['Expanded Content - Portrait']",
+					"display-name": "Layers",
+					"order": 2
+				}
+
+			]
+		},
+		{
+			"group-name": "Expand Content (Landscape)",
+			"target-group": "expand_content_landscape_main_file",
+			"order": 40,
+			"properties": [
+				{
+					"property": "CONTENT_PROPERTIES['Expanded Content - Landscape']",
+					"display-name": "Layers",
+					"order": 2
+				}
+
+			]
+		}
+
+	]
+
+}

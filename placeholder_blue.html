@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Hello</title>
+	<style type="text/css">
+	    html, body {
+	        height: 100%;
+	        margin: 0px;
+	    }
+	    .container {
+	    	display:block;
+	        height: 100%;
+	        background: #6699CC;
+	        border: 10px solid rgba(0,0,0,0.4);
+	        box-sizing: border-box;
+	        text-align: center;
+			vertical-align: middle;
+			font-family: arial,sans-serif;
+			color: rgba(0,0,0,0.4);
+			font-size: 30px;
+	    }
+		.dimensions {
+		    position: absolute;
+		    top: 50%;
+		    left: 50%;
+		    transform: translateX(-50%) translateY(-50%);
+		}
+	</style>
+	<script>
+		window.onresize = displayWindowSize;
+		window.onload = displayWindowSize;
+		function displayWindowSize() {
+	        myWidth = window.innerWidth;
+	        myHeight = window.innerHeight;
+			document.getElementById("dimensions").innerHTML = myWidth + " x " + myHeight;
+		};
+	</script>
+</head>
+<body>
+    <div class="container">
+    	<div class="dimensions" id="dimensions">--- x ---</div>
+    	</strong><font>
+    </div>
+</body>
+</html>

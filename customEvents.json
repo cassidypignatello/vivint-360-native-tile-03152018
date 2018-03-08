@@ -1,0 +1,195 @@
+{
+	"events": [
+
+{
+    "event-name": "contract",
+    "interaction": false,
+    "track-event": true,
+    "report-label": "Collapse"
+},
+
+		{
+			"event-name": "callCrossFrame",
+			"interaction": false,
+			"track-event": false
+		},
+		{
+			"event-name": "show",
+			"interaction": false,
+			"track-event": false
+		},
+		{
+			"event-name": "expand",
+			"interaction": false,
+			"track-event": false
+		},
+		{
+			"event-name": "Initial Expand",
+			"interaction": true,
+			"track-event": true,
+			"count-once-per-ad-delivery": false
+		},
+		{
+			"event-name": "Re-expand",
+			"interaction": false,
+			"track-event": true
+		},
+		{
+			"event-name": "Auto Expand",
+			"interaction": false,
+			"track-event": true
+		},
+		{
+			"event-name": "stopTimer",
+			"interaction": false,
+			"track-event": false
+		},
+		{
+			"event-name": "appReady",
+			"interaction": false,
+			"track-event": false
+		},
+		{
+			"event-name": "myhide",
+			"interaction": false,
+			"track-event": false
+		},
+		{
+			"event-name": "hide",
+			"interaction": false,
+			"track-event": false
+		},
+		{
+			"event-name": "myshow",
+			"interaction": false,
+			"track-event": false
+		},
+		{
+			"event-name": "mraidExpand",
+			"track-event": false,
+			"interaction": false
+		},
+		{
+			"event-name": "mraidOpen",
+			"track-event": false,
+			"interaction": false
+		},
+    {
+			"event-name": "coreLoaded",
+			"track-event": false,
+			"interaction": false
+		},
+    {
+			"event-name": "Initial orientation set",
+			"track-event": false,
+			"interaction": false
+		},
+    {
+			"event-name": "Orientation change",
+			"track-event": false,
+			"interaction": false
+		},
+		{
+			"event-name": "Landscape start",
+			"track-event": false,
+			"interaction": false
+    },
+    {
+			"event-name": "Portrait stop",
+		  "track-event": false,
+			"interaction": false
+		},
+		{
+			"event-name": "Landscape stop",
+			"track-event": false,
+			"interaction": false
+    },
+    {
+			"event-name": "Portrait start",
+			"track-event": false,
+			"interaction": false
+    },
+    {
+			"event-name": "Orientation Change to Portrait",
+			"track-event": true,
+      "interaction": false,
+      "count-once-per-ad-delivery": true
+    },
+    {
+			"event-name": "Orientation Change to Landscape",
+			"track-event": true,
+      "interaction": false,
+      "count-once-per-ad-delivery": true
+    },
+    {
+			"event-name": "Expand in Portrait",
+			"track-event": true,
+			"interaction": false
+    },
+    {
+			"event-name": "Expand in Landscape",
+			"track-event": true,
+			"interaction": false
+    },
+    {
+			"event-name": "Expand",
+      "content-name": "Banner",
+			"track-event": true,
+			"interaction": false
+    },
+    {
+			"event-name": "Collapse",
+			"track-event": true,
+			"interaction": false
+    },
+    {
+			"event-name": "Collapse",
+      "content-name": "Expanded Content - Portrait",
+			"track-event": true,
+			"interaction": false
+    },
+    {
+			"event-name": "Collapse",
+      "content-name": "Expanded Content - Landscape",
+			"track-event": true,
+			"interaction": false
+    },
+    {
+			"event-name": "Custom Action",
+      "content-name": "Banner",
+			"track-event": true,
+			"interaction": true
+    },
+    {
+			"event-name": "Custom Action",
+      "content-name": "Expanded Content - Portrait",
+			"track-event": true,
+			"interaction": true
+    },
+    {
+			"event-name": "Custom Action",
+      "content-name": "Expanded Content - Landscape",
+			"track-event": true,
+			"interaction": true
+    },
+    {
+			"event-name": "click_url",
+      "content-name": "Banner",
+			"track-event": true,
+			"interaction": false
+    },
+    {
+			"event-name": "click_url",
+      "content-name": "Expanded Content - Portrait",
+			"track-event": true,
+			"interaction": false
+    },
+    {
+			"event-name": "click_url",
+      "content-name": "Expanded Content - Landscape",
+			"track-event": true,
+			"interaction": false
+    }
+
+	]
+}

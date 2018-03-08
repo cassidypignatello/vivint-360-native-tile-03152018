@@ -1,0 +1,83 @@
+<!doctype html><html><head><meta charset="UTF-8"><meta name="p5VersionInfo" content="ONE: HTML5 Ver 4.7.0 Release on Thu Oct 26 2017 09:30:12 GMT-0400 (EDT) from release/4.7"><meta name="ad.size" content="width=100%,height=100%"><meta name="viewport" content="width=device-width,initial-scale=1"><script src="//ads.pictela.com/ads/jsapi/ADTECH.js"></script><script src="//ads.pictela.net/rm/PXL/vendor/jquery/jquery-3.2.1.min.js"></script><script src="core.min.js"></script><style>* {
+           box-sizing: border-box;
+         }
+         html {
+            margin: 0;
+            padding: 0;
+         }
+         body {
+             width: 100%;
+             height: 100%;
+             margin: 0;
+             padding: 0;
+             opacity: 1;
+             font-family: Helvetica, Arial, sans-serif;
+         }
+
+         /* Format specific. Figure out better structure later. */
+
+         /* these 2 wrappers are needed for inconsistent iOS transform alignment */
+         /* Flexbox would be a pain due to IE support and maintaining feature parity with desktop formats */
+         #core-wrapper-outer {
+           display: table;
+           height: 100%;
+           width: 100%;
+         }
+         #core-wrapper-inner {
+           display: table-cell;
+           vertical-align: middle;
+           text-align: center;
+         }
+         #core {
+           margin: auto;
+         }
+         #core.fullscreen {
+           width: 100%;
+           height: 100%;
+         }
+         #core.scale {
+           /* Here as a hook */
+         }
+         #core.layout-panel {
+           width: 100%;
+           height: 100%;
+         }
+
+         #banner-area {
+           background-color: #ddd; /* placeholder, decreases perceived loading time */
+           position: relative;
+         }
+         #banner-area-layers {
+           position: absolute;
+           top: 0;
+           left: 0;
+           height: 100%;
+           width: 100%;
+         }
+         #banner-area-base-layer {
+         }
+         #expanded-area {
+          position: absolute;
+          width: 100%;
+          height: 100%;
+          display: none;
+         }
+         .base-layer {
+           height: 100%;
+           width: 100%;
+           top: 0;
+           left: 0;
+         }
+         .layer {
+           position: absolute;
+         }
+         .iframe-generated {
+           display: block;
+         }
+         .bgimg-generated {
+           background-position: center center;
+         }
+         .hotspot-generated {}
+         .clickable {
+           cursor: pointer;
+         }</style></head><body></body></html>
