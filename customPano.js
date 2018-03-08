@@ -65,7 +65,7 @@ function init() {
 
   _settings = ADTECH.getContent(
     '360 Pano: Popups',
-    '[{"image":"echo_overlay.png", "url":"http://www.vivint.com/"},{"image":"huffpostPopup.png", "url":"https://www.oath.com/brands/huffpost/"},{"image":"panel_overlay.png", "url":"http://www.vivint.com/"},{"image":"nest_overlay.png", "url":"http://www.vivint.com/"}]'
+    '[{"image":"echo_overlay.png", "url":"http://www.vivint.com/"},{"image":"element_overlay.png", "url":"https://www.vivint.com/"},{"image":"panel_overlay.png", "url":"http://www.vivint.com/"},{"image":"nest_overlay.png", "url":"http://www.vivint.com/"}]'
   );
   _popups = document.getElementsByClassName('popup');
 
@@ -186,10 +186,10 @@ function krpanoReady(krpano) {
     '<point ath="155" atv="2" />' +
     '</hotspot>' +
     '<hotspot onclick="js(showPopup(1))" distort="false" enabled="true" handcursor="true" name="spot4" borderwidth="1" fillcolor="0x000000" fillalpha="0">' +
-    '<point ath="193" atv="-20" />' +
-    '<point ath="228" atv="-20" />' +
-    '<point ath="228" atv="20" />' +
-    '<point ath="193" atv="20" />' +
+    '<point ath="82" atv="-13" />' +
+    '<point ath="93" atv="-13" />' +
+    '<point ath="93" atv="0" />' +
+    '<point ath="82" atv="0" />' +
     '</hotspot>' +
     '<control ' +
     'touchzoom="false" ' +
