@@ -162,10 +162,10 @@ function krpanoReady(krpano) {
     // '<point ath="-80" atv="45" />' +
     // '</hotspot>' +
     '<hotspot onclick="js(handleClickthrough())" distort="true" enabled="true" handcursor="true" name="cta2" borderwidth="1" fillcolor="0x000000" fillalpha="0">' +
-    '<point ath="-80" atv="-135" />' +
-    '<point ath="80" atv="-135" />' +
-    '<point ath="-80" atv="-75" />' +
-    '<point ath="80" atv="-75" />' +
+    '<point ath="-20" atv="-110" />' +
+    '<point ath="50" atv="-105" />' +
+    '<point ath="-30" atv="-70" />' +
+    '<point ath="20" atv="-70" />' +
     '</hotspot>' +
     '<hotspot onclick="js(showPopup(0))" distort="false" enabled="true" handcursor="true" name="spot1" borderwidth="1" fillcolor="0x000000" fillalpha="0">' +
     '<point ath="-102" atv="-6" />' +
@@ -180,10 +180,10 @@ function krpanoReady(krpano) {
     '<point ath="43" atv="20" />' +
     '</hotspot>' +
     '<hotspot onclick="js(showPopup(3))" distort="false" enabled="true" handcursor="true" name="spot3" borderwidth="1" fillcolor="0x000000" fillalpha="0">' +
-    '<point ath="130" atv="-20" />' +
-    '<point ath="165" atv="-20" />' +
-    '<point ath="165" atv="20" />' +
-    '<point ath="130" atv="20" />' +
+    '<point ath="155" atv="-11" />' +
+    '<point ath="167" atv="-11" />' +
+    '<point ath="167" atv="2" />' +
+    '<point ath="155" atv="2" />' +
     '</hotspot>' +
     '<hotspot onclick="js(showPopup(1))" distort="false" enabled="true" handcursor="true" name="spot4" borderwidth="1" fillcolor="0x000000" fillalpha="0">' +
     '<point ath="193" atv="-20" />' +
