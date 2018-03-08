@@ -174,10 +174,10 @@ function krpanoReady(krpano) {
     '<point ath="-102" atv="10" />' +
     '</hotspot>' +
     '<hotspot onclick="js(showPopup(2))" distort="false" enabled="true" handcursor="true" name="spot2" borderwidth="1" fillcolor="0x000000" fillalpha="0">' +
-    '<point ath="43" atv="-20" />' +
-    '<point ath="80" atv="-20" />' +
-    '<point ath="80" atv="20" />' +
-    '<point ath="43" atv="20" />' +
+    '<point ath="60" atv="-17" />' +
+    '<point ath="80" atv="-17" />' +
+    '<point ath="80" atv="4" />' +
+    '<point ath="60" atv="4" />' +
     '</hotspot>' +
     '<hotspot onclick="js(showPopup(3))" distort="false" enabled="true" handcursor="true" name="spot3" borderwidth="1" fillcolor="0x000000" fillalpha="0">' +
     '<point ath="155" atv="-11" />' +
