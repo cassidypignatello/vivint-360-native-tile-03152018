@@ -65,7 +65,7 @@ function init() {
 
   _settings = ADTECH.getContent(
     '360 Pano: Popups',
-    '[{"image":"echo_overlay.png", "url":"http://www.vivint.com"},{"image":"huffpostPopup.png", "url":"https://www.oath.com/brands/huffpost/"},{"image":"sportsPopup.png", "video":"demoVideo.mp4", "poster":"posterSports.jpg", "url":"https://www.oath.com/brands/yahoo-sports/"},{"image":"financePopup.png", "video":"demoVideo.mp4", "poster":"posterFinance.jpg", "url":"https://www.oath.com/brands/yahoo-finance/"}]'
+    '[{"image":"echo_overlay.png", "url":"http://www.vivint.com/"},{"image":"huffpostPopup.png", "url":"https://www.oath.com/brands/huffpost/"},{"image":"panel_overlay.png", "url":"http://www.vivint.com/"},{"image":"nest_overlay.png", "url":"http://www.vivint.com/"}]'
   );
   _popups = document.getElementsByClassName('popup');
 
@@ -155,37 +155,37 @@ function krpanoReady(krpano) {
     '<image>' +
     '<cube url="pano_%s.jpg" />' +
     '</image>' +
-    '<hotspot onclick="js(handleClickthrough())" distort="true" enabled="true" handcursor="true" name="cta1" borderwidth="0" fillcolor="0x000000" fillalpha="0">' +
-    '<point ath="85" atv="135" />' +
-    '<point ath="-85" atv="135" />' +
-    '<point ath="80" atv="45" />' +
-    '<point ath="-80" atv="45" />' +
-    '</hotspot>' +
-    '<hotspot onclick="js(handleClickthrough())" distort="true" enabled="true" handcursor="true" name="cta2" borderwidth="0" fillcolor="0x000000" fillalpha="0">' +
+    // '<hotspot onclick="js(handleClickthrough())" distort="true" enabled="true" handcursor="true" name="cta1" borderwidth="0" fillcolor="0x000000" fillalpha="0">' +
+    // '<point ath="85" atv="135" />' +
+    // '<point ath="-85" atv="135" />' +
+    // '<point ath="80" atv="45" />' +
+    // '<point ath="-80" atv="45" />' +
+    // '</hotspot>' +
+    '<hotspot onclick="js(handleClickthrough())" distort="true" enabled="true" handcursor="true" name="cta2" borderwidth="1" fillcolor="0x000000" fillalpha="0">' +
     '<point ath="-80" atv="-135" />' +
     '<point ath="80" atv="-135" />' +
     '<point ath="-80" atv="-75" />' +
     '<point ath="80" atv="-75" />' +
     '</hotspot>' +
-    '<hotspot onclick="js(showPopup(0))" distort="false" enabled="true" handcursor="true" name="spot1" borderwidth="0" fillcolor="0x000000" fillalpha="0">' +
-    '<point ath="-100" atv="-22" />' +
-    '<point ath="-45" atv="-22" />' +
-    '<point ath="-45" atv="18" />' +
-    '<point ath="-100" atv="28" />' +
+    '<hotspot onclick="js(showPopup(0))" distort="false" enabled="true" handcursor="true" name="spot1" borderwidth="1" fillcolor="0x000000" fillalpha="0">' +
+    '<point ath="-102" atv="-6" />' +
+    '<point ath="-86" atv="-6" />' +
+    '<point ath="-86" atv="10" />' +
+    '<point ath="-102" atv="10" />' +
     '</hotspot>' +
-    '<hotspot onclick="js(showPopup(2))" distort="false" enabled="true" handcursor="true" name="spot2" borderwidth="0" fillcolor="0x000000" fillalpha="0">' +
+    '<hotspot onclick="js(showPopup(2))" distort="false" enabled="true" handcursor="true" name="spot2" borderwidth="1" fillcolor="0x000000" fillalpha="0">' +
     '<point ath="43" atv="-20" />' +
     '<point ath="80" atv="-20" />' +
     '<point ath="80" atv="20" />' +
     '<point ath="43" atv="20" />' +
     '</hotspot>' +
-    '<hotspot onclick="js(showPopup(3))" distort="false" enabled="true" handcursor="true" name="spot3" borderwidth="0" fillcolor="0x000000" fillalpha="0">' +
+    '<hotspot onclick="js(showPopup(3))" distort="false" enabled="true" handcursor="true" name="spot3" borderwidth="1" fillcolor="0x000000" fillalpha="0">' +
     '<point ath="130" atv="-20" />' +
     '<point ath="165" atv="-20" />' +
     '<point ath="165" atv="20" />' +
     '<point ath="130" atv="20" />' +
     '</hotspot>' +
-    '<hotspot onclick="js(showPopup(1))" distort="false" enabled="true" handcursor="true" name="spot4" borderwidth="0" fillcolor="0x000000" fillalpha="0">' +
+    '<hotspot onclick="js(showPopup(1))" distort="false" enabled="true" handcursor="true" name="spot4" borderwidth="1" fillcolor="0x000000" fillalpha="0">' +
     '<point ath="193" atv="-20" />' +
     '<point ath="228" atv="-20" />' +
     '<point ath="228" atv="20" />' +
@@ -211,7 +211,7 @@ function hidePopup(popup, id) {
 }
 
 function handleClickthrough(popup) {
-  ADTECH.click('Logo', 'http://www.oath.com');
+  ADTECH.click('Logo', 'http://www.vivint.com');
 }
 
 function handlePopupClickthrough(popup, id) {
